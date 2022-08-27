@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(233, 238, 241);
+  margin: 0;
+  padding: 0;
+}
+
+#try {
+  background-color: rgb(3, 40, 61);
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+#port ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+#port a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+
+#port a:hover{
+  background-color: rgb(11, 63, 94);
+  padding: 1.75rem 3.5rem;
+}
+
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  color: rgb(3, 40, 61);
+}
+
+#natural ul {
+  width: 95%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(3, 40, 61);
+}
+
+.adopt img {
+  width: 15rem;
+  margin-bottom: 0.1rem;
+}
+
+.adopt p {
+  font-weight: 500;
+  font-size: 1.15rem;
+}
+
+#foot ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3rem;
+  list-style: none;
+  color: rgb(3, 40, 61);
+}
+
+#foot h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0;
+}
+
+#foot p {
+  font-size: 1.2rem;
+}
+
+#tag h4 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+#inc {
+  font-size: 1.5rem;
+  text-align: center;
+  color: rgb(3, 40, 61);
+}

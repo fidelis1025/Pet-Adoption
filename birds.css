@@ -1,0 +1,38 @@
+#yellow{
+    background-image: url("/Birds/david-clode-3YEMFXYBgu8-unsplash.jpg");
+    background-position: center;
+    background-size: contain;
+    height: 42rem;   
+}
+
+#label{
+    background-color: rgba(102, 100, 100,0.4);
+    height: 42rem;
+    width: 100%;
+} 
+
+#label p{
+    margin-top: 0;
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    padding-top: 18.5rem;
+}
+
+#natural h3{
+    font-size: 1.7rem;
+    margin-top: 0.4rem;
+    margin-bottom: 0.3rem;
+}
+
+#natural h5{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(3, 40, 61);
+}
+
+#natural p{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
