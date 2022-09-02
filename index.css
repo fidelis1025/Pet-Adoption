@@ -20,9 +20,43 @@ main ul {
   margin-bottom: 5rem;
 }
 
+.front-images{
+  position: relative;
+}
+
 .front-images img {
   width: 34rem;
   height: 22.67rem;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgb(87, 85, 85);
+}
+
+.front-images img:hover{
+  filter: blur(3px);
+}
+
+span{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  opacity: 0;
+  transition: all 0.1s ease-in 0.1s;
+  z-index: 5;
+}
+
+
+.title{
+  font-size: 1.8rem;
+  left: 5rem;
+  top: 11rem;
+}
+
+.description{
+  font-size: 1.2rem;
+  left: 5rem;
+  top: 13.5rem;
+  width: 70%;
+}
+
+.front-images:hover span {
+  opacity: 1;
 }

@@ -5,20 +5,6 @@
     height: 42rem;   
 }
 
-#label{
-    background-color: rgba(102, 100, 100,0.4);
-    height: 42rem;
-    width: 100%;
-} 
-
-#label p{
-    margin-top: 0;
-    font-size: 5rem;
-    font-weight: 700;
-    color: white;
-    text-align: center;
-    padding-top: 18.5rem;
-}
 
 #natural h3{
     font-size: 1.7rem;
